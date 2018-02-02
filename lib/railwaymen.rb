@@ -1,5 +1,7 @@
 require "railwaymen/version"
 require "railwaymen/configuration"
+require "railwaymen/errors/missing_ticket"
+require "railwaymen/conductor"
 
 module Railwaymen
   class << self
